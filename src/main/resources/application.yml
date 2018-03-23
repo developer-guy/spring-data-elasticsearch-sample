@@ -1,0 +1,4 @@
+elasticsearch:
+  clustername: elasticsearch_devquy
+  host: localhost
+  port: 9300
