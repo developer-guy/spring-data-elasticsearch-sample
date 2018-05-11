@@ -6,7 +6,7 @@ import org.springframework.data.elasticsearch.annotations.Document;
 
 import java.util.Objects;
 
-@Document(indexName = "devquy", type = "books")
+@Document(indexName = "book", type = "books")
 public class Book {
 
     @Id

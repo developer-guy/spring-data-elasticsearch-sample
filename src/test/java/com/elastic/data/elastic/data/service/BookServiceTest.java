@@ -51,6 +51,7 @@ public class BookServiceTest {
         Book book = new Book("1001", "Elasticsearch Basics", "Rambabu Posa", "23-FEB-2017");
         //when
         when(bookRepository.save(book)).thenReturn(book);
+
         Book testBook = bookService.save(book);
         //then
         assertThat(book.getId()).isEqualTo(testBook.getId());
